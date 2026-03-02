@@ -1,1 +1,1 @@
-# Mickael's Miscellaneous Functions 
+# Mickael's Miscellaneous Python Helpers and Utility Functions.

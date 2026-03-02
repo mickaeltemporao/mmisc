@@ -1,5 +1,4 @@
 def make_table(
-    """Takes a list of statsmodels and returns a typst table."""
     models, 
     model_names=None, 
     dep_var="Name Your DV",
@@ -8,6 +7,7 @@ def make_table(
     output_path='model_summary.typ',
     as_file=False,
 ):
+    """Takes a list of statsmodels and returns a typst table."""
     if not isinstance(models, list):
         models = [models]
     if model_names is None:
