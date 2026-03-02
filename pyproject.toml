@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mmisc"
+version = "0.1.0"
+readme = "README.md"
+description = "Mickael's Miscellaneous Functions"
+requires-python = ">=3.13"
+license = "CC0 1.0 Universal"
+license-files = ["LICEN[CS]E*"]
+authors = [
+  { name="Mickael Temporão", email="16172142+mickaeltemporao@users.noreply.github.com" },
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/mickaeltemporao/mmisc"
