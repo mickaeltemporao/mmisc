@@ -7,7 +7,7 @@ name = "mmisc"
 version = "0.1.2"
 readme = "README.md"
 description = "Mickael's Miscellaneous Python Helpers and Utility Functions."
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 license = "CC0-1.0"
 license-files = ["LICEN[CS]E*"]
 authors = [
