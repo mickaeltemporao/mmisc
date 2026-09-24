@@ -26,10 +26,22 @@ typst_code = make_table(
 make_table([model1, model2], output_path="models.typ")
 ```
 
-## Publish to PyPI
+## Publishing to PyPI
 
-    dotenv run -- uv build
-    dotenv run -- uv publish
+1. **Configure Token** (one-time setup in `.env`):
+   ```bash
+   export UV_PUBLISH_TOKEN=pypi-...
+   ```
 
+2. **Build and Publish**:
+   ```bash
+   rm -rf dist/
+   dotenv run -- uv build
+   dotenv run -- uv publish
+   ```
 
-
+3. **Tag and Push**:
+   ```bash
+   git tag v<version>
+   git push origin main --tags
+   ```
