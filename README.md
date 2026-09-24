@@ -26,9 +26,10 @@ typst_code = make_table(
 make_table([model1, model2], output_path="models.typ")
 ```
 
-## Publish to PyPI (temporary workflow)
+## Publish to PyPI
 
     dotenv run -- uv build
-    dotenv run -- uv run twine upload dist/*
+    dotenv run -- uv publish
+
 
 
